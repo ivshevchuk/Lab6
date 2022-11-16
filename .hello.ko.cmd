@@ -1,0 +1,1 @@
+cmd_/home/ivshevchuk/lab6/hello.ko := ccache arm-linux-gnueabihf-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/ivshevchuk/lab6/hello.ko /home/ivshevchuk/lab6/hello.o /home/ivshevchuk/lab6/hello.mod.o ;  true

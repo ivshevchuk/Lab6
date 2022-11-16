@@ -1,0 +1,1 @@
+cmd_/home/sasha/Lab6/hello.ko := ccache arm-eabi-ld -r  -EL -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/sasha/Lab6/hello.ko /home/sasha/Lab6/hello.o /home/sasha/Lab6/hello.mod.o ;  true
